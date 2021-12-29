@@ -1,0 +1,11 @@
+<?php
+function Reverse($str){
+	return strrev($str);
+}
+
+$str = "Welcome";
+echo Reverse($str)
+?>
+
+
+//output:emoclew
